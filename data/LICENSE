@@ -1,0 +1,24 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) 2026 Pavel Chuklanov
+
+The derived numerical inter-session news aggregates (`data/news_aggregates.npz`),
+universe specification (`data/universe.json`), and empirical benchmark run
+outputs (`data/runs/`) in this directory are licensed under the Creative Commons
+Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0).
+
+Summary of key terms (not a substitute for the full legal code):
+  - Attribution (BY): You must give appropriate credit to the author and paper,
+    provide a link to the license, and indicate if changes were made.
+  - NonCommercial (NC): You may not use this material for commercial purposes.
+  - No additional restrictions: You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license permits.
+
+Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Human-readable deed: https://creativecommons.org/licenses/by-nc/4.0/
+
+Note on upstream sources:
+  - Raw Moscow Exchange (MOEX) equity trade histories are NOT included in `data/`
+    and are retrieved on demand from https://iss.moex.com by `experiments/fetch_moex.py`
+    subject to the Moscow Exchange User Agreement and Market Data Policy.
+  - Raw copyrighted article headlines from Lenta.ru are NOT included or redistributed.

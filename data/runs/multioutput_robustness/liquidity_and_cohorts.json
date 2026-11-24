@@ -1,0 +1,93 @@
+{
+  "mom21_lowvol": {
+    "top30_ens_ic": 0.087337,
+    "ranks_31_50_ens_ic": 0.090954,
+    "bluechip_exdiv_sens_ens_ic": 0.088526,
+    "weekly_5cohort_tstats": [
+      4.7455,
+      4.8235,
+      4.3899,
+      4.5259,
+      4.3764
+    ],
+    "weekly_5cohort_mean_t": 4.5722
+  },
+  "ridge": {
+    "top30_ens_ic": 0.047641,
+    "ranks_31_50_ens_ic": 0.023193,
+    "bluechip_exdiv_sens_ens_ic": 0.028017,
+    "weekly_5cohort_tstats": [
+      1.6173,
+      2.3915,
+      2.4154,
+      1.4443,
+      1.4512
+    ],
+    "weekly_5cohort_mean_t": 1.8639
+  },
+  "rff_krr": {
+    "top30_ens_ic": 0.062466,
+    "ranks_31_50_ens_ic": 0.047982,
+    "bluechip_exdiv_sens_ens_ic": 0.052373,
+    "weekly_5cohort_tstats": [
+      3.7842,
+      3.908,
+      3.2474,
+      3.8448,
+      3.1501
+    ],
+    "weekly_5cohort_mean_t": 3.5869
+  },
+  "hgbdt": {
+    "top30_ens_ic": 0.057035,
+    "ranks_31_50_ens_ic": 0.061203,
+    "bluechip_exdiv_sens_ens_ic": 0.058781,
+    "weekly_5cohort_tstats": [
+      3.2784,
+      3.3597,
+      4.125,
+      4.9278,
+      3.7877
+    ],
+    "weekly_5cohort_mean_t": 3.8957
+  },
+  "mlp_tanh": {
+    "top30_ens_ic": 0.073215,
+    "ranks_31_50_ens_ic": 0.059979,
+    "bluechip_exdiv_sens_ens_ic": 0.059979,
+    "weekly_5cohort_tstats": [
+      3.8552,
+      4.3833,
+      3.9269,
+      3.5653,
+      3.7947
+    ],
+    "weekly_5cohort_mean_t": 3.9051
+  },
+  "qcml_herm_d8": {
+    "top30_ens_ic": 0.08808,
+    "ranks_31_50_ens_ic": 0.063412,
+    "bluechip_exdiv_sens_ens_ic": 0.072143,
+    "weekly_5cohort_tstats": [
+      6.2402,
+      5.5121,
+      4.8968,
+      5.4254,
+      4.0349
+    ],
+    "weekly_5cohort_mean_t": 5.2219
+  },
+  "qcml_realsym_d11": {
+    "top30_ens_ic": 0.096588,
+    "ranks_31_50_ens_ic": 0.056339,
+    "bluechip_exdiv_sens_ens_ic": 0.076764,
+    "weekly_5cohort_tstats": [
+      6.1724,
+      5.8753,
+      5.2218,
+      5.1852,
+      4.0058
+    ],
+    "weekly_5cohort_mean_t": 5.2921
+  }
+}

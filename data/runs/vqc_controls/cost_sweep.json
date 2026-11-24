@@ -1,0 +1,930 @@
+{
+  "market_only": {
+    "vqc_n3_affine_cnot_fullherm": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.40409,
+          "sharpe_lo_ex_cbr": 0.33014,
+          "sharpe_ls": 1.404686
+        },
+        "5": {
+          "ir_lo_active": 1.173792,
+          "sharpe_lo_ex_cbr": 0.23784,
+          "sharpe_ls": 1.105184
+        },
+        "10": {
+          "ir_lo_active": 0.943343,
+          "sharpe_lo_ex_cbr": 0.145541,
+          "sharpe_ls": 0.805392
+        },
+        "15": {
+          "ir_lo_active": 0.7128,
+          "sharpe_lo_ex_cbr": 0.053247,
+          "sharpe_ls": 0.505511
+        },
+        "25": {
+          "ir_lo_active": 0.251672,
+          "sharpe_lo_ex_cbr": -0.13131,
+          "sharpe_ls": -0.093704
+        },
+        "50": {
+          "ir_lo_active": -0.898661,
+          "sharpe_lo_ex_cbr": -0.592339,
+          "sharpe_ls": -1.579253
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.479648,
+          "sharpe_lo_ex_cbr": -0.040134,
+          "sharpe_ls": 0.758557
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.781185,
+        "500": 0.505511,
+        "1200": 0.119381
+      },
+      "gross_ir_lo_active": 1.40409,
+      "net_ir_lo_active_15bps": 0.7128,
+      "net_ir_lo_active_15bps_ci": [
+        -0.15775,
+        1.45053
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.098,
+      "net_ir_lo_active_tiered": 0.479648,
+      "net_sharpe_lo_ex_cbr_15bps": 0.053247,
+      "gross_sharpe_ls": 1.404686,
+      "net_sharpe_ls_15bps": 0.505511,
+      "net_sharpe_ls_15bps_ci": [
+        -0.48394,
+        1.46093
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.2975,
+      "net_sharpe_ls_tiered": 0.758557,
+      "breakeven_cost_lo_bps": 30.533,
+      "breakeven_cost_ls_bps": 23.552,
+      "annual_turnover_lo_oneway": 27.722,
+      "annual_turnover_ls_oneway": 54.31,
+      "dsr_lo_active_15bps": 0.23181,
+      "dsr_ls_15bps": 0.10157,
+      "dsr_t_eff_lo": 130.44,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.584285,
+      "single_seed_net_ir_lo_15bps_std": 0.27618,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.190276,
+      "single_seed_breakeven_lo_bps_mean": 27.986
+    },
+    "vqc_n3_affine_nocnot_fullherm": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.396234,
+          "sharpe_lo_ex_cbr": 0.337685,
+          "sharpe_ls": 1.299773
+        },
+        "5": {
+          "ir_lo_active": 1.169362,
+          "sharpe_lo_ex_cbr": 0.246073,
+          "sharpe_ls": 0.997421
+        },
+        "10": {
+          "ir_lo_active": 0.942338,
+          "sharpe_lo_ex_cbr": 0.15447,
+          "sharpe_ls": 0.694957
+        },
+        "15": {
+          "ir_lo_active": 0.715223,
+          "sharpe_lo_ex_cbr": 0.062881,
+          "sharpe_ls": 0.392587
+        },
+        "25": {
+          "ir_lo_active": 0.260964,
+          "sharpe_lo_ex_cbr": -0.120241,
+          "sharpe_ls": -0.211059
+        },
+        "50": {
+          "ir_lo_active": -0.87204,
+          "sharpe_lo_ex_cbr": -0.577523,
+          "sharpe_ls": -1.704503
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.486158,
+          "sharpe_lo_ex_cbr": -0.029532,
+          "sharpe_ls": 0.64454
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.67593,
+        "500": 0.392587,
+        "1200": -0.004239
+      },
+      "gross_ir_lo_active": 1.396234,
+      "net_ir_lo_active_15bps": 0.715223,
+      "net_ir_lo_active_15bps_ci": [
+        -0.19708,
+        1.47117
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.096,
+      "net_ir_lo_active_tiered": 0.486158,
+      "net_sharpe_lo_ex_cbr_15bps": 0.062881,
+      "gross_sharpe_ls": 1.299773,
+      "net_sharpe_ls_15bps": 0.392587,
+      "net_sharpe_ls_15bps_ci": [
+        -0.55382,
+        1.36387
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.4315,
+      "net_sharpe_ls_tiered": 0.64454,
+      "breakeven_cost_lo_bps": 31.049,
+      "breakeven_cost_ls_bps": 21.61,
+      "annual_turnover_lo_oneway": 27.465,
+      "annual_turnover_ls_oneway": 53.27,
+      "dsr_lo_active_15bps": 0.25272,
+      "dsr_ls_15bps": 0.07428,
+      "dsr_t_eff_lo": 131.38,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.531428,
+      "single_seed_net_ir_lo_15bps_std": 0.239983,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.139066,
+      "single_seed_breakeven_lo_bps_mean": 26.242
+    },
+    "vqc_n3_cyclic_cnot_fullherm": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.41107,
+          "sharpe_lo_ex_cbr": 0.32375,
+          "sharpe_ls": 1.366742
+        },
+        "5": {
+          "ir_lo_active": 1.19826,
+          "sharpe_lo_ex_cbr": 0.239914,
+          "sharpe_ls": 1.086356
+        },
+        "10": {
+          "ir_lo_active": 0.985371,
+          "sharpe_lo_ex_cbr": 0.156101,
+          "sharpe_ls": 0.805305
+        },
+        "15": {
+          "ir_lo_active": 0.772458,
+          "sharpe_lo_ex_cbr": 0.072315,
+          "sharpe_ls": 0.523775
+        },
+        "25": {
+          "ir_lo_active": 0.346778,
+          "sharpe_lo_ex_cbr": -0.095166,
+          "sharpe_ls": -0.039979
+        },
+        "50": {
+          "ir_lo_active": -0.714046,
+          "sharpe_lo_ex_cbr": -0.513181,
+          "sharpe_ls": -1.4447
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.556891,
+          "sharpe_lo_ex_cbr": -0.012496,
+          "sharpe_ls": 0.756302
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.803793,
+        "500": 0.523775,
+        "1200": 0.131532
+      },
+      "gross_ir_lo_active": 1.41107,
+      "net_ir_lo_active_15bps": 0.772458,
+      "net_ir_lo_active_15bps_ci": [
+        -0.10709,
+        1.56891
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.078,
+      "net_ir_lo_active_tiered": 0.556891,
+      "net_sharpe_lo_ex_cbr_15bps": 0.072315,
+      "gross_sharpe_ls": 1.366742,
+      "net_sharpe_ls_15bps": 0.523775,
+      "net_sharpe_ls_15bps_ci": [
+        -0.33297,
+        1.45104
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.2215,
+      "net_sharpe_ls_tiered": 0.756302,
+      "breakeven_cost_lo_bps": 33.062,
+      "breakeven_cost_ls_bps": 24.077,
+      "annual_turnover_lo_oneway": 25.387,
+      "annual_turnover_ls_oneway": 50.275,
+      "dsr_lo_active_15bps": 0.25939,
+      "dsr_ls_15bps": 0.13179,
+      "dsr_t_eff_lo": 113.93,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.57324,
+      "single_seed_net_ir_lo_15bps_std": 0.259185,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.265721,
+      "single_seed_breakeven_lo_bps_mean": 28.392
+    },
+    "vqc_n3_cyclic_nocnot_fullherm": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.907871,
+          "sharpe_lo_ex_cbr": 0.542553,
+          "sharpe_ls": 1.378733
+        },
+        "5": {
+          "ir_lo_active": 1.683146,
+          "sharpe_lo_ex_cbr": 0.451156,
+          "sharpe_ls": 1.09028
+        },
+        "10": {
+          "ir_lo_active": 1.458248,
+          "sharpe_lo_ex_cbr": 0.359784,
+          "sharpe_ls": 0.801477
+        },
+        "15": {
+          "ir_lo_active": 1.233235,
+          "sharpe_lo_ex_cbr": 0.26844,
+          "sharpe_ls": 0.512516
+        },
+        "25": {
+          "ir_lo_active": 0.783094,
+          "sharpe_lo_ex_cbr": 0.085853,
+          "sharpe_ls": -0.065113
+        },
+        "50": {
+          "ir_lo_active": -0.340245,
+          "sharpe_lo_ex_cbr": -0.369855,
+          "sharpe_ls": -1.498658
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 1.019889,
+          "sharpe_lo_ex_cbr": 0.181876,
+          "sharpe_ls": 0.752508
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.786736,
+        "500": 0.512516,
+        "1200": 0.128416
+      },
+      "gross_ir_lo_active": 1.907871,
+      "net_ir_lo_active_15bps": 1.233235,
+      "net_ir_lo_active_15bps_ci": [
+        0.3821,
+        1.97082
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.002,
+      "net_ir_lo_active_tiered": 1.019889,
+      "net_sharpe_lo_ex_cbr_15bps": 0.26844,
+      "gross_sharpe_ls": 1.378733,
+      "net_sharpe_ls_15bps": 0.512516,
+      "net_sharpe_ls_15bps_ci": [
+        -0.39349,
+        1.44737
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.283,
+      "net_sharpe_ls_tiered": 0.752508,
+      "breakeven_cost_lo_bps": 42.538,
+      "breakeven_cost_ls_bps": 23.871,
+      "annual_turnover_lo_oneway": 27.533,
+      "annual_turnover_ls_oneway": 52.589,
+      "dsr_lo_active_15bps": 0.68895,
+      "dsr_ls_15bps": 0.09705,
+      "dsr_t_eff_lo": 121.15,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.996445,
+      "single_seed_net_ir_lo_15bps_std": 0.158597,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.447697,
+      "single_seed_breakeven_lo_bps_mean": 36.363
+    },
+    "vqc_n3_affine_cnot_localzx": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.58565,
+          "sharpe_lo_ex_cbr": 0.434174,
+          "sharpe_ls": 1.33976
+        },
+        "5": {
+          "ir_lo_active": 1.371674,
+          "sharpe_lo_ex_cbr": 0.34331,
+          "sharpe_ls": 1.052264
+        },
+        "10": {
+          "ir_lo_active": 1.157562,
+          "sharpe_lo_ex_cbr": 0.252479,
+          "sharpe_ls": 0.764814
+        },
+        "15": {
+          "ir_lo_active": 0.943362,
+          "sharpe_lo_ex_cbr": 0.161684,
+          "sharpe_ls": 0.477597
+        },
+        "25": {
+          "ir_lo_active": 0.514901,
+          "sharpe_lo_ex_cbr": -0.019779,
+          "sharpe_ls": -0.095412
+        },
+        "50": {
+          "ir_lo_active": -0.554312,
+          "sharpe_lo_ex_cbr": -0.472529,
+          "sharpe_ls": -1.511346
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.71464,
+          "sharpe_lo_ex_cbr": 0.064583,
+          "sharpe_ls": 0.71144
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.75047,
+        "500": 0.477597,
+        "1200": 0.095398
+      },
+      "gross_ir_lo_active": 1.58565,
+      "net_ir_lo_active_15bps": 0.943362,
+      "net_ir_lo_active_15bps_ci": [
+        0.06304,
+        1.6803
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.028,
+      "net_ir_lo_active_tiered": 0.71464,
+      "net_sharpe_lo_ex_cbr_15bps": 0.161684,
+      "gross_sharpe_ls": 1.33976,
+      "net_sharpe_ls_15bps": 0.477597,
+      "net_sharpe_ls_15bps_ci": [
+        -0.44914,
+        1.38502
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.307,
+      "net_sharpe_ls_tiered": 0.71144,
+      "breakeven_cost_lo_bps": 37.076,
+      "breakeven_cost_ls_bps": 23.327,
+      "annual_turnover_lo_oneway": 27.218,
+      "annual_turnover_ls_oneway": 52.472,
+      "dsr_lo_active_15bps": 0.38533,
+      "dsr_ls_15bps": 0.1028,
+      "dsr_t_eff_lo": 119.47,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.808633,
+      "single_seed_net_ir_lo_15bps_std": 0.30723,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.507798,
+      "single_seed_breakeven_lo_bps_mean": 33.465
+    },
+    "vqc_n3_affine_nocnot_localzx": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.527241,
+          "sharpe_lo_ex_cbr": 0.40549,
+          "sharpe_ls": 1.092895
+        },
+        "5": {
+          "ir_lo_active": 1.307663,
+          "sharpe_lo_ex_cbr": 0.314845,
+          "sharpe_ls": 0.804402
+        },
+        "10": {
+          "ir_lo_active": 1.088019,
+          "sharpe_lo_ex_cbr": 0.22424,
+          "sharpe_ls": 0.515634
+        },
+        "15": {
+          "ir_lo_active": 0.868363,
+          "sharpe_lo_ex_cbr": 0.133679,
+          "sharpe_ls": 0.226757
+        },
+        "25": {
+          "ir_lo_active": 0.429225,
+          "sharpe_lo_ex_cbr": -0.047299,
+          "sharpe_ls": -0.350663
+        },
+        "50": {
+          "ir_lo_active": -0.665133,
+          "sharpe_lo_ex_cbr": -0.498728,
+          "sharpe_ls": -1.784586
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.639338,
+          "sharpe_lo_ex_cbr": 0.038968,
+          "sharpe_ls": 0.469612
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.496485,
+        "500": 0.226757,
+        "1200": -0.150938
+      },
+      "gross_ir_lo_active": 1.527241,
+      "net_ir_lo_active_15bps": 0.868363,
+      "net_ir_lo_active_15bps_ci": [
+        -0.07361,
+        1.62488
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.0575,
+      "net_ir_lo_active_tiered": 0.639338,
+      "net_sharpe_lo_ex_cbr_15bps": 0.133679,
+      "gross_sharpe_ls": 1.092895,
+      "net_sharpe_ls_15bps": 0.226757,
+      "net_sharpe_ls_15bps_ci": [
+        -0.66208,
+        1.24141
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.649,
+      "net_sharpe_ls_tiered": 0.469612,
+      "breakeven_cost_lo_bps": 34.924,
+      "breakeven_cost_ls_bps": 18.957,
+      "annual_turnover_lo_oneway": 28.015,
+      "annual_turnover_ls_oneway": 53.549,
+      "dsr_lo_active_15bps": 0.3076,
+      "dsr_ls_15bps": 0.03948,
+      "dsr_t_eff_lo": 108.62,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.555041,
+      "single_seed_net_ir_lo_15bps_std": 0.249898,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.276784,
+      "single_seed_breakeven_lo_bps_mean": 27.144
+    }
+  },
+  "market_news": {
+    "vqc_n3_affine_cnot_fullherm": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.888651,
+          "sharpe_lo_ex_cbr": 0.513505,
+          "sharpe_ls": 1.383655
+        },
+        "5": {
+          "ir_lo_active": 1.65195,
+          "sharpe_lo_ex_cbr": 0.419292,
+          "sharpe_ls": 1.080982
+        },
+        "10": {
+          "ir_lo_active": 1.415099,
+          "sharpe_lo_ex_cbr": 0.325057,
+          "sharpe_ls": 0.777778
+        },
+        "15": {
+          "ir_lo_active": 1.178161,
+          "sharpe_lo_ex_cbr": 0.230804,
+          "sharpe_ls": 0.474232
+        },
+        "25": {
+          "ir_lo_active": 0.704285,
+          "sharpe_lo_ex_cbr": 0.04226,
+          "sharpe_ls": -0.133108
+        },
+        "50": {
+          "ir_lo_active": -0.477406,
+          "sharpe_lo_ex_cbr": -0.429131,
+          "sharpe_ls": -1.643934
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.938002,
+          "sharpe_lo_ex_cbr": 0.134971,
+          "sharpe_ls": 0.730619
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.751229,
+        "500": 0.474232,
+        "1200": 0.086251
+      },
+      "gross_ir_lo_active": 1.888651,
+      "net_ir_lo_active_15bps": 1.178161,
+      "net_ir_lo_active_15bps_ci": [
+        0.35638,
+        1.91577
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.003,
+      "net_ir_lo_active_tiered": 0.938002,
+      "net_sharpe_lo_ex_cbr_15bps": 0.230804,
+      "gross_sharpe_ls": 1.383655,
+      "net_sharpe_ls_15bps": 0.474232,
+      "net_sharpe_ls_15bps_ci": [
+        -0.43363,
+        1.42753
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.2995,
+      "net_sharpe_ls_tiered": 0.730619,
+      "breakeven_cost_lo_bps": 39.995,
+      "breakeven_cost_ls_bps": 22.74,
+      "annual_turnover_lo_oneway": 27.375,
+      "annual_turnover_ls_oneway": 54.783,
+      "dsr_lo_active_15bps": 0.68617,
+      "dsr_ls_15bps": 0.10465,
+      "dsr_t_eff_lo": 129.3,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.666982,
+      "single_seed_net_ir_lo_15bps_std": 0.295195,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.264425,
+      "single_seed_breakeven_lo_bps_mean": 29.121
+    },
+    "vqc_n3_affine_nocnot_fullherm": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.778226,
+          "sharpe_lo_ex_cbr": 0.498797,
+          "sharpe_ls": 1.314092
+        },
+        "5": {
+          "ir_lo_active": 1.55623,
+          "sharpe_lo_ex_cbr": 0.405388,
+          "sharpe_ls": 1.002872
+        },
+        "10": {
+          "ir_lo_active": 1.333769,
+          "sharpe_lo_ex_cbr": 0.311914,
+          "sharpe_ls": 0.690849
+        },
+        "15": {
+          "ir_lo_active": 1.110894,
+          "sharpe_lo_ex_cbr": 0.218379,
+          "sharpe_ls": 0.378233
+        },
+        "25": {
+          "ir_lo_active": 0.664112,
+          "sharpe_lo_ex_cbr": 0.031141,
+          "sharpe_ls": -0.247933
+        },
+        "50": {
+          "ir_lo_active": -0.456383,
+          "sharpe_lo_ex_cbr": -0.437753,
+          "sharpe_ls": -1.808876
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.891624,
+          "sharpe_lo_ex_cbr": 0.126617,
+          "sharpe_ls": 0.64272
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.671644,
+        "500": 0.378233,
+        "1200": -0.032703
+      },
+      "gross_ir_lo_active": 1.778226,
+      "net_ir_lo_active_15bps": 1.110894,
+      "net_ir_lo_active_15bps_ci": [
+        0.32767,
+        1.79211
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.003,
+      "net_ir_lo_active_tiered": 0.891624,
+      "net_sharpe_lo_ex_cbr_15bps": 0.218379,
+      "gross_sharpe_ls": 1.314092,
+      "net_sharpe_ls_15bps": 0.378233,
+      "net_sharpe_ls_15bps_ci": [
+        -0.50434,
+        1.25901
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.3875,
+      "net_sharpe_ls_tiered": 0.64272,
+      "breakeven_cost_lo_bps": 39.809,
+      "breakeven_cost_ls_bps": 20.991,
+      "annual_turnover_lo_oneway": 26.833,
+      "annual_turnover_ls_oneway": 53.35,
+      "dsr_lo_active_15bps": 0.64951,
+      "dsr_ls_15bps": 0.07764,
+      "dsr_t_eff_lo": 144.22,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.591737,
+      "single_seed_net_ir_lo_15bps_std": 0.259657,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.124642,
+      "single_seed_breakeven_lo_bps_mean": 27.503
+    },
+    "vqc_n3_cyclic_cnot_fullherm": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.925992,
+          "sharpe_lo_ex_cbr": 0.541664,
+          "sharpe_ls": 2.149569
+        },
+        "5": {
+          "ir_lo_active": 1.688704,
+          "sharpe_lo_ex_cbr": 0.444373,
+          "sharpe_ls": 1.834477
+        },
+        "10": {
+          "ir_lo_active": 1.451465,
+          "sharpe_lo_ex_cbr": 0.347122,
+          "sharpe_ls": 1.519214
+        },
+        "15": {
+          "ir_lo_active": 1.214333,
+          "sharpe_lo_ex_cbr": 0.249913,
+          "sharpe_ls": 1.203995
+        },
+        "25": {
+          "ir_lo_active": 0.740625,
+          "sharpe_lo_ex_cbr": 0.055639,
+          "sharpe_ls": 0.574552
+        },
+        "50": {
+          "ir_lo_active": -0.437705,
+          "sharpe_lo_ex_cbr": -0.429013,
+          "sharpe_ls": -0.983475
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.998308,
+          "sharpe_lo_ex_cbr": 0.161724,
+          "sharpe_ls": 1.466683
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 1.490425,
+        "500": 1.203995,
+        "1200": 0.802478
+      },
+      "gross_ir_lo_active": 1.925992,
+      "net_ir_lo_active_15bps": 1.214333,
+      "net_ir_lo_active_15bps_ci": [
+        0.3368,
+        1.97923
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.0025,
+      "net_ir_lo_active_tiered": 0.998308,
+      "net_sharpe_lo_ex_cbr_15bps": 0.249913,
+      "gross_sharpe_ls": 2.149569,
+      "net_sharpe_ls_15bps": 1.203995,
+      "net_sharpe_ls_15bps_ci": [
+        0.3363,
+        2.08329
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.0085,
+      "net_sharpe_ls_tiered": 1.466683,
+      "breakeven_cost_lo_bps": 40.787,
+      "breakeven_cost_ls_bps": 34.135,
+      "annual_turnover_lo_oneway": 27.28,
+      "annual_turnover_ls_oneway": 54.692,
+      "dsr_lo_active_15bps": 0.6369,
+      "dsr_ls_15bps": 0.61966,
+      "dsr_t_eff_lo": 116.73,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.932804,
+      "single_seed_net_ir_lo_15bps_std": 0.291845,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.749443,
+      "single_seed_breakeven_lo_bps_mean": 34.258
+    },
+    "vqc_n3_cyclic_nocnot_fullherm": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.769906,
+          "sharpe_lo_ex_cbr": 0.496337,
+          "sharpe_ls": 1.327689
+        },
+        "5": {
+          "ir_lo_active": 1.535648,
+          "sharpe_lo_ex_cbr": 0.399121,
+          "sharpe_ls": 1.039743
+        },
+        "10": {
+          "ir_lo_active": 1.301321,
+          "sharpe_lo_ex_cbr": 0.301939,
+          "sharpe_ls": 0.751727
+        },
+        "15": {
+          "ir_lo_active": 1.066989,
+          "sharpe_lo_ex_cbr": 0.204797,
+          "sharpe_ls": 0.463825
+        },
+        "25": {
+          "ir_lo_active": 0.598565,
+          "sharpe_lo_ex_cbr": 0.010647,
+          "sharpe_ls": -0.110901
+        },
+        "50": {
+          "ir_lo_active": -0.568173,
+          "sharpe_lo_ex_cbr": -0.473728,
+          "sharpe_ls": -1.533098
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.832736,
+          "sharpe_lo_ex_cbr": 0.107656,
+          "sharpe_ls": 0.704863
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.721693,
+        "500": 0.463825,
+        "1200": 0.102661
+      },
+      "gross_ir_lo_active": 1.769906,
+      "net_ir_lo_active_15bps": 1.066989,
+      "net_ir_lo_active_15bps_ci": [
+        0.18493,
+        1.81756
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.0165,
+      "net_ir_lo_active_tiered": 0.832736,
+      "net_sharpe_lo_ex_cbr_15bps": 0.204797,
+      "gross_sharpe_ls": 1.327689,
+      "net_sharpe_ls_15bps": 0.463825,
+      "net_sharpe_ls_15bps_ci": [
+        -0.28617,
+        1.15124
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.23,
+      "net_sharpe_ls_tiered": 0.704863,
+      "breakeven_cost_lo_bps": 37.822,
+      "breakeven_cost_ls_bps": 23.178,
+      "annual_turnover_lo_oneway": 28.602,
+      "annual_turnover_ls_oneway": 55.709,
+      "dsr_lo_active_15bps": 0.48497,
+      "dsr_ls_15bps": 0.14317,
+      "dsr_t_eff_lo": 113.83,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.89574,
+      "single_seed_net_ir_lo_15bps_std": 0.342884,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.218884,
+      "single_seed_breakeven_lo_bps_mean": 33.804
+    },
+    "vqc_n3_affine_cnot_localzx": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.54616,
+          "sharpe_lo_ex_cbr": 0.432422,
+          "sharpe_ls": 1.471951
+        },
+        "5": {
+          "ir_lo_active": 1.328183,
+          "sharpe_lo_ex_cbr": 0.337142,
+          "sharpe_ls": 1.166782
+        },
+        "10": {
+          "ir_lo_active": 1.110019,
+          "sharpe_lo_ex_cbr": 0.241876,
+          "sharpe_ls": 0.861631
+        },
+        "15": {
+          "ir_lo_active": 0.891721,
+          "sharpe_lo_ex_cbr": 0.146631,
+          "sharpe_ls": 0.556711
+        },
+        "25": {
+          "ir_lo_active": 0.454938,
+          "sharpe_lo_ex_cbr": -0.043781,
+          "sharpe_ls": -0.051596
+        },
+        "50": {
+          "ir_lo_active": -0.635615,
+          "sharpe_lo_ex_cbr": -0.51915,
+          "sharpe_ls": -1.553916
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.670652,
+          "sharpe_lo_ex_cbr": 0.050581,
+          "sharpe_ls": 0.805513
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.844849,
+        "500": 0.556711,
+        "1200": 0.153084
+      },
+      "gross_ir_lo_active": 1.54616,
+      "net_ir_lo_active_15bps": 0.891721,
+      "net_ir_lo_active_15bps_ci": [
+        0.00494,
+        1.61541
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.034,
+      "net_ir_lo_active_tiered": 0.670652,
+      "net_sharpe_lo_ex_cbr_15bps": 0.146631,
+      "gross_sharpe_ls": 1.471951,
+      "net_sharpe_ls_15bps": 0.556711,
+      "net_sharpe_ls_15bps_ci": [
+        -0.24935,
+        1.37076
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.1765,
+      "net_sharpe_ls_tiered": 0.805513,
+      "breakeven_cost_lo_bps": 35.623,
+      "breakeven_cost_ls_bps": 23.978,
+      "annual_turnover_lo_oneway": 26.929,
+      "annual_turnover_ls_oneway": 52.771,
+      "dsr_lo_active_15bps": 0.41296,
+      "dsr_ls_15bps": 0.18821,
+      "dsr_t_eff_lo": 148.47,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.694792,
+      "single_seed_net_ir_lo_15bps_std": 0.231498,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.41486,
+      "single_seed_breakeven_lo_bps_mean": 30.294
+    },
+    "vqc_n3_affine_nocnot_localzx": {
+      "exec_lag": 1,
+      "borrow_bps_pa": 500.0,
+      "cbr_rf_mean_pct": 13.3439,
+      "n_short_ban_rebalances": 38,
+      "cost_sweep": {
+        "0": {
+          "ir_lo_active": 1.596251,
+          "sharpe_lo_ex_cbr": 0.408813,
+          "sharpe_ls": 1.407078
+        },
+        "5": {
+          "ir_lo_active": 1.360912,
+          "sharpe_lo_ex_cbr": 0.314115,
+          "sharpe_ls": 1.101829
+        },
+        "10": {
+          "ir_lo_active": 1.125362,
+          "sharpe_lo_ex_cbr": 0.219422,
+          "sharpe_ls": 0.796821
+        },
+        "15": {
+          "ir_lo_active": 0.889667,
+          "sharpe_lo_ex_cbr": 0.124739,
+          "sharpe_ls": 0.492277
+        },
+        "25": {
+          "ir_lo_active": 0.4181,
+          "sharpe_lo_ex_cbr": -0.064581,
+          "sharpe_ls": -0.11454
+        },
+        "50": {
+          "ir_lo_active": -0.7588,
+          "sharpe_lo_ex_cbr": -0.537414,
+          "sharpe_ls": -1.608538
+        },
+        "tiered_10_30": {
+          "ir_lo_active": 0.659411,
+          "sharpe_lo_ex_cbr": 0.031687,
+          "sharpe_ls": 0.745068
+        }
+      },
+      "ls_borrow_sensitivity_15bps": {
+        "0": 0.778194,
+        "500": 0.492277,
+        "1200": 0.091778
+      },
+      "gross_ir_lo_active": 1.596251,
+      "net_ir_lo_active_15bps": 0.889667,
+      "net_ir_lo_active_15bps_ci": [
+        -0.03378,
+        1.68111
+      ],
+      "net_ir_lo_active_15bps_boot_pval": 0.0545,
+      "net_ir_lo_active_tiered": 0.659411,
+      "net_sharpe_lo_ex_cbr_15bps": 0.124739,
+      "gross_sharpe_ls": 1.407078,
+      "net_sharpe_ls_15bps": 0.492277,
+      "net_sharpe_ls_15bps_ci": [
+        -0.36658,
+        1.3914
+      ],
+      "net_sharpe_ls_15bps_boot_pval": 0.276,
+      "net_sharpe_ls_tiered": 0.745068,
+      "breakeven_cost_lo_bps": 33.861,
+      "breakeven_cost_ls_bps": 22.961,
+      "annual_turnover_lo_oneway": 28.091,
+      "annual_turnover_ls_oneway": 53.061,
+      "dsr_lo_active_15bps": 0.30406,
+      "dsr_ls_15bps": 0.12104,
+      "dsr_t_eff_lo": 110.05,
+      "dsr_k_trials": 40,
+      "single_seed_net_ir_lo_15bps_mean": 0.591555,
+      "single_seed_net_ir_lo_15bps_std": 0.418295,
+      "single_seed_net_sharpe_ls_15bps_mean": 0.471991,
+      "single_seed_breakeven_lo_bps_mean": 27.044
+    }
+  }
+}

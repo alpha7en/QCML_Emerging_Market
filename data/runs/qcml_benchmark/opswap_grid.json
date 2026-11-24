@@ -1,0 +1,326 @@
+{
+  "market_only": {
+    "qcml_herm_dstar_chosen": [
+      "qcml_herm_d8",
+      "qcml_herm_d2",
+      "qcml_herm_d16",
+      "qcml_herm_d16",
+      "qcml_herm_d16",
+      "qcml_herm_d8"
+    ],
+    "qcml_diag_d64_bstar_chosen": [
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b8",
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b0.25"
+    ],
+    "mcs_unified_ic": {
+      "qcml_herm_d2": {
+        "mcs_pval": 0.146,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d4": {
+        "mcs_pval": 0.698,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d8": {
+        "mcs_pval": 0.749,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d16": {
+        "mcs_pval": 0.749,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_dstar": {
+        "mcs_pval": 0.698,
+        "in_mcs_05": 1
+      },
+      "qcml_realsym_d11": {
+        "mcs_pval": 0.749,
+        "in_mcs_05": 1
+      },
+      "qcml_diag_d64_bstar": {
+        "mcs_pval": 0.671,
+        "in_mcs_05": 1
+      },
+      "mom21_lowvol": {
+        "mcs_pval": 1.0,
+        "in_mcs_05": 1
+      },
+      "ridge": {
+        "mcs_pval": 0.046,
+        "in_mcs_05": 0
+      },
+      "rff_krr": {
+        "mcs_pval": 0.146,
+        "in_mcs_05": 1
+      },
+      "hgbdt": {
+        "mcs_pval": 0.698,
+        "in_mcs_05": 1
+      },
+      "lgbm": {
+        "mcs_pval": 0.749,
+        "in_mcs_05": 1
+      },
+      "mlp_tanh": {
+        "mcs_pval": 0.749,
+        "in_mcs_05": 1
+      },
+      "film_mlp_iso": {
+        "mcs_pval": 0.001,
+        "in_mcs_05": 0
+      },
+      "vqc_n3_affine_cnot_fullherm": {
+        "mcs_pval": 0.166,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_affine_nocnot_fullherm": {
+        "mcs_pval": 0.251,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_cyclic_cnot_fullherm": {
+        "mcs_pval": 0.749,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_cyclic_nocnot_fullherm": {
+        "mcs_pval": 0.749,
+        "in_mcs_05": 1
+      }
+    },
+    "mcs_unified_mse": {
+      "qcml_herm_d2": {
+        "mcs_pval": 0.737,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d4": {
+        "mcs_pval": 0.846,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d8": {
+        "mcs_pval": 0.965,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d16": {
+        "mcs_pval": 0.965,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_dstar": {
+        "mcs_pval": 0.965,
+        "in_mcs_05": 1
+      },
+      "qcml_realsym_d11": {
+        "mcs_pval": 0.965,
+        "in_mcs_05": 1
+      },
+      "qcml_diag_d64_bstar": {
+        "mcs_pval": 0.965,
+        "in_mcs_05": 1
+      },
+      "ridge": {
+        "mcs_pval": 0.63,
+        "in_mcs_05": 1
+      },
+      "rff_krr": {
+        "mcs_pval": 0.965,
+        "in_mcs_05": 1
+      },
+      "hgbdt": {
+        "mcs_pval": 0.953,
+        "in_mcs_05": 1
+      },
+      "lgbm": {
+        "mcs_pval": 0.965,
+        "in_mcs_05": 1
+      },
+      "mlp_tanh": {
+        "mcs_pval": 1.0,
+        "in_mcs_05": 1
+      },
+      "film_mlp_iso": {
+        "mcs_pval": 0.013,
+        "in_mcs_05": 0
+      },
+      "vqc_n3_affine_cnot_fullherm": {
+        "mcs_pval": 0.63,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_affine_nocnot_fullherm": {
+        "mcs_pval": 0.737,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_cyclic_cnot_fullherm": {
+        "mcs_pval": 0.953,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_cyclic_nocnot_fullherm": {
+        "mcs_pval": 0.965,
+        "in_mcs_05": 1
+      }
+    }
+  },
+  "market_news": {
+    "qcml_herm_dstar_chosen": [
+      "qcml_herm_d16",
+      "qcml_herm_d2",
+      "qcml_herm_d16",
+      "qcml_herm_d16",
+      "qcml_herm_d4",
+      "qcml_herm_d8"
+    ],
+    "qcml_diag_d64_bstar_chosen": [
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b1",
+      "qcml_diag_d64_b4"
+    ],
+    "mcs_unified_ic": {
+      "qcml_herm_d2": {
+        "mcs_pval": 0.085,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d4": {
+        "mcs_pval": 0.33,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d8": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d16": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_dstar": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "qcml_realsym_d11": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "qcml_diag_d64_bstar": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "mom21_lowvol": {
+        "mcs_pval": 1.0,
+        "in_mcs_05": 1
+      },
+      "ridge": {
+        "mcs_pval": 0.001,
+        "in_mcs_05": 0
+      },
+      "rff_krr": {
+        "mcs_pval": 0.175,
+        "in_mcs_05": 1
+      },
+      "hgbdt": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "lgbm": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "mlp_tanh": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "film_mlp_iso": {
+        "mcs_pval": 0.001,
+        "in_mcs_05": 0
+      },
+      "vqc_n3_affine_cnot_fullherm": {
+        "mcs_pval": 0.166,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_affine_nocnot_fullherm": {
+        "mcs_pval": 0.061,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_cyclic_cnot_fullherm": {
+        "mcs_pval": 0.653,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_cyclic_nocnot_fullherm": {
+        "mcs_pval": 0.27,
+        "in_mcs_05": 1
+      }
+    },
+    "mcs_unified_mse": {
+      "qcml_herm_d2": {
+        "mcs_pval": 0.23,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d4": {
+        "mcs_pval": 0.507,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d8": {
+        "mcs_pval": 0.996,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_d16": {
+        "mcs_pval": 0.996,
+        "in_mcs_05": 1
+      },
+      "qcml_herm_dstar": {
+        "mcs_pval": 0.996,
+        "in_mcs_05": 1
+      },
+      "qcml_realsym_d11": {
+        "mcs_pval": 0.996,
+        "in_mcs_05": 1
+      },
+      "qcml_diag_d64_bstar": {
+        "mcs_pval": 1.0,
+        "in_mcs_05": 1
+      },
+      "ridge": {
+        "mcs_pval": 0.199,
+        "in_mcs_05": 1
+      },
+      "rff_krr": {
+        "mcs_pval": 0.81,
+        "in_mcs_05": 1
+      },
+      "hgbdt": {
+        "mcs_pval": 0.81,
+        "in_mcs_05": 1
+      },
+      "lgbm": {
+        "mcs_pval": 0.996,
+        "in_mcs_05": 1
+      },
+      "mlp_tanh": {
+        "mcs_pval": 0.996,
+        "in_mcs_05": 1
+      },
+      "film_mlp_iso": {
+        "mcs_pval": 0.048,
+        "in_mcs_05": 0
+      },
+      "vqc_n3_affine_cnot_fullherm": {
+        "mcs_pval": 0.23,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_affine_nocnot_fullherm": {
+        "mcs_pval": 0.507,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_cyclic_cnot_fullherm": {
+        "mcs_pval": 0.996,
+        "in_mcs_05": 1
+      },
+      "vqc_n3_cyclic_nocnot_fullherm": {
+        "mcs_pval": 0.911,
+        "in_mcs_05": 1
+      }
+    }
+  }
+}

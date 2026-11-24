@@ -1,0 +1,41 @@
+\usepackage{amsmath,amssymb}
+\usepackage{newtxtext,newtxmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,decorations.pathreplacing}
+
+\definecolor{ink}{HTML}{1B1F23}
+\definecolor{slate}{HTML}{555E68}
+\definecolor{muted}{HTML}{8E96A0}
+\definecolor{light}{HTML}{C6CCD2}
+\definecolor{faint}{HTML}{E6E9ED}
+\definecolor{quantum}{HTML}{2C5E8A}
+\definecolor{quantumlight}{HTML}{6C9AC3}
+\definecolor{quantumpale}{HTML}{DCE7F2}
+\definecolor{ochre}{HTML}{B86B19}
+\definecolor{ochrelight}{HTML}{E2B98B}
+\definecolor{ochrepale}{HTML}{F6E9D8}
+
+\newcommand{\pfmain}[1]{{\fontsize{7.6}{8.8}\selectfont\color{ink}#1}}
+\newcommand{\pfsub}[1]{{\fontsize{7.0}{8.2}\selectfont\color{ink}#1}}
+\newcommand{\pfslate}[1]{{\fontsize{7.0}{8.2}\selectfont\color{slate}#1}}
+\newcommand{\pfquantum}[1]{{\fontsize{7.0}{8.2}\selectfont\color{quantum}#1}}
+\newcommand{\pfochre}[1]{{\fontsize{7.0}{8.2}\selectfont\color{ochre}#1}}
+
+\newcommand{\haty}{%
+  \tikz[baseline=(Y.base)]{%
+    \node[inner sep=0pt, outer sep=0pt] (Y) {$y$};
+    \draw[line width=0.45pt, line cap=round, line join=round]
+      ([xshift=0.3pt,yshift=1.25pt]Y.north west) -- ([yshift=2.45pt]Y.north) -- ([xshift=-0.3pt,yshift=1.25pt]Y.north east);
+  }%
+}
+
+\tikzset{
+  pfarrow/.style={-{Stealth[length=3.3pt, width=2.4pt]}, line width=0.65pt, draw=ink},
+  pfmutedarrow/.style={-{Stealth[length=3.2pt, width=2.3pt]}, line width=0.60pt, draw=slate},
+  pfqgate/.style={
+    rectangle, draw=ink, fill=white, line width=0.65pt,
+    minimum height=0.225in, inner sep=2.2pt,
+    font=\fontsize{7.0}{8.0}\selectfont, text=ink
+  }
+}

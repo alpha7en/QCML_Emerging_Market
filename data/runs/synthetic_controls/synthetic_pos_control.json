@@ -1,0 +1,124 @@
+{
+  "wall_time_sec": 54.943,
+  "b0a": {
+    "s1_theory_E0_noncomm": 0.25,
+    "s1_theory_E0_comm": 0.29736,
+    "s1_unsupervised": {
+      "hermitian": {
+        "test_mean_E0": 0.25113,
+        "kappa_nc": 1.4062,
+        "hermiticity_err": 0.0
+      },
+      "real_sym": {
+        "test_mean_E0": 0.25113,
+        "kappa_nc": 1.4062,
+        "hermiticity_err": 0.0
+      },
+      "commuting_diag": {
+        "test_mean_E0": 0.30719,
+        "kappa_nc": 0.0,
+        "hermiticity_err": 0.0
+      }
+    },
+    "s2_supervised_3way": {
+      "hermitian": {
+        "test_r2": 0.99995,
+        "kappa_nc": 1.414,
+        "n_params": 24,
+        "n_eff_params": 21
+      },
+      "real_sym": {
+        "test_r2": 0.6334,
+        "kappa_nc": 1.1453,
+        "n_params": 18,
+        "n_eff_params": 17
+      },
+      "commuting_diag_hard": {
+        "test_r2": 0.24963,
+        "kappa_nc": 0.0,
+        "n_params": 12,
+        "n_eff_params": 12
+      },
+      "commuting_diag_gibbs": {
+        "test_r2": 0.32107,
+        "kappa_nc": 0.0,
+        "n_params": 12,
+        "n_eff_params": 12
+      }
+    }
+  },
+  "b0b": {
+    "herm_d3": {
+      "n_params": 36,
+      "mean_r2": 0.99383,
+      "std_r2": 0.00947,
+      "per_seed": [
+        1.0,
+        0.97754,
+        0.99999,
+        0.9936,
+        0.998
+      ]
+    },
+    "realsym_d3": {
+      "n_params": 24,
+      "mean_r2": 0.90237,
+      "std_r2": 0.01783,
+      "per_seed": [
+        0.87415,
+        0.89579,
+        0.9182,
+        0.91118,
+        0.91254
+      ]
+    },
+    "diag_d3": {
+      "n_params": 12,
+      "mean_r2": 0.54923,
+      "std_r2": 0.12525,
+      "per_seed": [
+        0.4501,
+        0.76664,
+        0.49842,
+        0.53555,
+        0.49544
+      ]
+    },
+    "diag_d9": {
+      "n_params": 36,
+      "mean_r2": 0.99856,
+      "std_r2": 0.0005,
+      "per_seed": [
+        0.99845,
+        0.99898,
+        0.99774,
+        0.99886,
+        0.99879
+      ]
+    },
+    "ridge": {
+      "n_params": 4,
+      "mean_r2": -0.00424,
+      "std_r2": 0.00501,
+      "per_seed": [
+        -0.00601,
+        0.00167,
+        0.0005,
+        -0.0092,
+        -0.00817
+      ]
+    },
+    "hgbdt": {
+      "n_params": 3720,
+      "mean_r2": 0.99773,
+      "std_r2": 0.00099,
+      "per_seed": [
+        0.99784,
+        0.9983,
+        0.99599,
+        0.99827,
+        0.99826
+      ]
+    }
+  }
+}

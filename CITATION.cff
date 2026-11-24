@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or the derived data files, please cite it as below."
+title: "QCML_Emerging_Market: empirical de-quantization and norm-controlled spectral audit of Quantum Cognition Machine Learning in an emerging equity market"
+version: 1.0.0
+repository-code: "https://github.com/alpha7en/QCML_Emerging_Market"
+date-released: 2026-11-25
+license: BSD-3-Clause
+authors:
+  - family-names: Chuklanov
+    given-names: Pavel
+    email: Chuklanov.pavel@gmail.com
+preferred-citation:
+  type: article
+  title: "Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market"
+  year: 2026
+  authors:
+    - family-names: Chuklanov
+      given-names: Pavel

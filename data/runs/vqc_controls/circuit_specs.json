@@ -1,0 +1,126 @@
+{
+  "market_only": {
+    "vqc_n3_affine_cnot_fullherm": {
+      "n_qubits": 3,
+      "depth": 54,
+      "n_2q_gates": 27,
+      "n_params": 794,
+      "q_mw_mean": 0.378316,
+      "encoding": "affine",
+      "entangle": 1,
+      "readout": "full_hermitian"
+    },
+    "vqc_n3_affine_nocnot_fullherm": {
+      "n_qubits": 3,
+      "depth": 27,
+      "n_2q_gates": 0,
+      "n_params": 794,
+      "q_mw_mean": 1e-06,
+      "encoding": "affine",
+      "entangle": 0,
+      "readout": "full_hermitian"
+    },
+    "vqc_n3_cyclic_cnot_fullherm": {
+      "n_qubits": 3,
+      "depth": 48,
+      "n_2q_gates": 18,
+      "n_params": 155,
+      "q_mw_mean": 0.467813,
+      "encoding": "cyclic_packed",
+      "entangle": 1,
+      "readout": "full_hermitian"
+    },
+    "vqc_n3_cyclic_nocnot_fullherm": {
+      "n_qubits": 3,
+      "depth": 30,
+      "n_2q_gates": 0,
+      "n_params": 155,
+      "q_mw_mean": 1e-06,
+      "encoding": "cyclic_packed",
+      "entangle": 0,
+      "readout": "full_hermitian"
+    },
+    "vqc_n3_affine_cnot_localzx": {
+      "n_qubits": 3,
+      "depth": 54,
+      "n_2q_gates": 27,
+      "n_params": 736,
+      "q_mw_mean": 0.388836,
+      "encoding": "affine",
+      "entangle": 1,
+      "readout": "local_zx"
+    },
+    "vqc_n3_affine_nocnot_localzx": {
+      "n_qubits": 3,
+      "depth": 27,
+      "n_2q_gates": 0,
+      "n_params": 736,
+      "q_mw_mean": 1e-06,
+      "encoding": "affine",
+      "entangle": 0,
+      "readout": "local_zx"
+    }
+  },
+  "market_news": {
+    "vqc_n3_affine_cnot_fullherm": {
+      "n_qubits": 3,
+      "depth": 54,
+      "n_2q_gates": 27,
+      "n_params": 1118,
+      "q_mw_mean": 0.424897,
+      "encoding": "affine",
+      "entangle": 1,
+      "readout": "full_hermitian"
+    },
+    "vqc_n3_affine_nocnot_fullherm": {
+      "n_qubits": 3,
+      "depth": 27,
+      "n_2q_gates": 0,
+      "n_params": 1118,
+      "q_mw_mean": 1e-06,
+      "encoding": "affine",
+      "entangle": 0,
+      "readout": "full_hermitian"
+    },
+    "vqc_n3_cyclic_cnot_fullherm": {
+      "n_qubits": 3,
+      "depth": 72,
+      "n_2q_gates": 27,
+      "n_params": 200,
+      "q_mw_mean": 0.531615,
+      "encoding": "cyclic_packed",
+      "entangle": 1,
+      "readout": "full_hermitian"
+    },
+    "vqc_n3_cyclic_nocnot_fullherm": {
+      "n_qubits": 3,
+      "depth": 45,
+      "n_2q_gates": 0,
+      "n_params": 200,
+      "q_mw_mean": 1e-06,
+      "encoding": "cyclic_packed",
+      "entangle": 0,
+      "readout": "full_hermitian"
+    },
+    "vqc_n3_affine_cnot_localzx": {
+      "n_qubits": 3,
+      "depth": 54,
+      "n_2q_gates": 27,
+      "n_params": 1060,
+      "q_mw_mean": 0.43334,
+      "encoding": "affine",
+      "entangle": 1,
+      "readout": "local_zx"
+    },
+    "vqc_n3_affine_nocnot_localzx": {
+      "n_qubits": 3,
+      "depth": 27,
+      "n_2q_gates": 0,
+      "n_params": 1060,
+      "q_mw_mean": 1e-06,
+      "encoding": "affine",
+      "entangle": 0,
+      "readout": "local_zx"
+    }
+  }
+}

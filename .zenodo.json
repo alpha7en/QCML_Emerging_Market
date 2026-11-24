@@ -1,0 +1,22 @@
+{
+  "title": "QCML_Emerging_Market: empirical de-quantization and norm-controlled spectral audit of Quantum Cognition Machine Learning in an emerging equity market",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "license": "bsd-3-clause",
+  "creators": [
+    {
+      "name": "Chuklanov, Pavel"
+    }
+  ],
+  "description": "Code (qcml_moex), derived numerical inter-session news aggregates, and benchmark outputs accompanying the paper \"Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market\". Source code is licensed under BSD-3-Clause; derived data files under data/ are licensed under CC BY-NC 4.0.",
+  "keywords": [
+    "quantum cognition machine learning",
+    "quantum-inspired machine learning",
+    "econophysics",
+    "de-quantization",
+    "random matrix theory",
+    "non-commutative geometry",
+    "financial time series",
+    "Moscow Exchange"
+  ]
+}

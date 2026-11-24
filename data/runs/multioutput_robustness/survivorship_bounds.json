@@ -1,0 +1,157 @@
+{
+  "mom21_lowvol": {
+    "baseline_rank_ic": 0.088507,
+    "baseline_n_rows": 37048,
+    "pre2020_continuous": {
+      "rank_ic": 0.092632,
+      "nw_se": 0.018677,
+      "nw_pval": 1e-06,
+      "n_rows": 31903,
+      "row_retention_pct": 86.11
+    },
+    "distressed_exit_stress": {
+      "k_3_exits_per_fold": {
+        "rank_ic_mean": 0.088267,
+        "rank_ic_std": 0.001054,
+        "rank_ic_p05": 0.086188,
+        "delta_vs_base": -0.00024
+      },
+      "k_5_exits_per_fold": {
+        "rank_ic_mean": 0.088595,
+        "rank_ic_std": 0.001285,
+        "rank_ic_p05": 0.086254,
+        "delta_vs_base": 8.9e-05
+      },
+      "k_7_exits_per_fold": {
+        "rank_ic_mean": 0.088151,
+        "rank_ic_std": 0.001679,
+        "rank_ic_p05": 0.08598,
+        "delta_vs_base": -0.000355
+      }
+    }
+  },
+  "rff_krr": {
+    "baseline_rank_ic": 0.052407,
+    "baseline_n_rows": 37048,
+    "pre2020_continuous": {
+      "rank_ic": 0.058148,
+      "nw_se": 0.014015,
+      "nw_pval": 3.7e-05,
+      "n_rows": 31903,
+      "row_retention_pct": 86.11
+    },
+    "distressed_exit_stress": {
+      "k_3_exits_per_fold": {
+        "rank_ic_mean": 0.051753,
+        "rank_ic_std": 0.001097,
+        "rank_ic_p05": 0.049808,
+        "delta_vs_base": -0.000654
+      },
+      "k_5_exits_per_fold": {
+        "rank_ic_mean": 0.0518,
+        "rank_ic_std": 0.001149,
+        "rank_ic_p05": 0.050341,
+        "delta_vs_base": -0.000607
+      },
+      "k_7_exits_per_fold": {
+        "rank_ic_mean": 0.051683,
+        "rank_ic_std": 0.001544,
+        "rank_ic_p05": 0.049258,
+        "delta_vs_base": -0.000725
+      }
+    }
+  },
+  "hgbdt": {
+    "baseline_rank_ic": 0.058945,
+    "baseline_n_rows": 37048,
+    "pre2020_continuous": {
+      "rank_ic": 0.063669,
+      "nw_se": 0.013348,
+      "nw_pval": 2e-06,
+      "n_rows": 31903,
+      "row_retention_pct": 86.11
+    },
+    "distressed_exit_stress": {
+      "k_3_exits_per_fold": {
+        "rank_ic_mean": 0.058419,
+        "rank_ic_std": 0.000957,
+        "rank_ic_p05": 0.056784,
+        "delta_vs_base": -0.000526
+      },
+      "k_5_exits_per_fold": {
+        "rank_ic_mean": 0.058509,
+        "rank_ic_std": 0.001106,
+        "rank_ic_p05": 0.057039,
+        "delta_vs_base": -0.000436
+      },
+      "k_7_exits_per_fold": {
+        "rank_ic_mean": 0.05819,
+        "rank_ic_std": 0.001269,
+        "rank_ic_p05": 0.056095,
+        "delta_vs_base": -0.000755
+      }
+    }
+  },
+  "mlp_tanh": {
+    "baseline_rank_ic": 0.060193,
+    "baseline_n_rows": 37048,
+    "pre2020_continuous": {
+      "rank_ic": 0.067829,
+      "nw_se": 0.01455,
+      "nw_pval": 4e-06,
+      "n_rows": 31903,
+      "row_retention_pct": 86.11
+    },
+    "distressed_exit_stress": {
+      "k_3_exits_per_fold": {
+        "rank_ic_mean": 0.05965,
+        "rank_ic_std": 0.001083,
+        "rank_ic_p05": 0.057921,
+        "delta_vs_base": -0.000543
+      },
+      "k_5_exits_per_fold": {
+        "rank_ic_mean": 0.059565,
+        "rank_ic_std": 0.001133,
+        "rank_ic_p05": 0.058061,
+        "delta_vs_base": -0.000628
+      },
+      "k_7_exits_per_fold": {
+        "rank_ic_mean": 0.059562,
+        "rank_ic_std": 0.001518,
+        "rank_ic_p05": 0.057079,
+        "delta_vs_base": -0.000631
+      }
+    }
+  },
+  "qcml_herm_d8": {
+    "baseline_rank_ic": 0.07228,
+    "baseline_n_rows": 37048,
+    "pre2020_continuous": {
+      "rank_ic": 0.079398,
+      "nw_se": 0.012952,
+      "nw_pval": 0.0,
+      "n_rows": 31903,
+      "row_retention_pct": 86.11
+    },
+    "distressed_exit_stress": {
+      "k_3_exits_per_fold": {
+        "rank_ic_mean": 0.071824,
+        "rank_ic_std": 0.001012,
+        "rank_ic_p05": 0.070292,
+        "delta_vs_base": -0.000455
+      },
+      "k_5_exits_per_fold": {
+        "rank_ic_mean": 0.071851,
+        "rank_ic_std": 0.001211,
+        "rank_ic_p05": 0.069984,
+        "delta_vs_base": -0.000429
+      },
+      "k_7_exits_per_fold": {
+        "rank_ic_mean": 0.071509,
+        "rank_ic_std": 0.001521,
+        "rank_ic_p05": 0.069073,
+        "delta_vs_base": -0.000771
+      }
+    }
+  }
+}
