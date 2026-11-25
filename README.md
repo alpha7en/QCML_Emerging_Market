@@ -2,7 +2,7 @@
 
 Replication package and Python library (`qcml_moex`) for *"Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market"* (P. Chuklanov, 2026).
 
-The repository implements matrix-form Quantum Cognition Machine Learning (QCML), iso-parameter real-symmetric ($\mathrm{Sym}(\mathbb{R}^{11})$) and commuting Gibbs ($\operatorname{diag}(\mathbb{R}^{64})$) operator swaps, three-qubit data-reuploading variational quantum circuits (VQCs) with an explicit `CNOT` entanglement toggle, classical asset-pricing controls, and norm-controlled $\mathrm{GUE}(8)$ spectral-stress diagnostics on Moscow Exchange (MOEX) equities with causally lagged economic news (`2020–2025`, `37,048` out-of-sample stock-days across `759` sessions).
+The repository implements matrix-form Quantum Cognition Machine Learning (QCML), iso-parameter real-symmetric ($`\mathrm{Sym}(\mathbb{R}^{11})`$) and commuting Gibbs ($`\operatorname{diag}(\mathbb{R}^{64})`$) operator swaps, three-qubit data-reuploading variational quantum circuits (VQCs) with an explicit `CNOT` entanglement toggle, classical asset-pricing controls, and norm-controlled $`\mathrm{GUE}(8)`$ spectral-stress diagnostics on Moscow Exchange (MOEX) equities with causally lagged economic news (`2020–2025`, `37,048` out-of-sample stock-days across `759` sessions).
 
 ## Quick start
 
@@ -17,7 +17,7 @@ python -I experiments/tables/table01_benchmark.py
 python -I experiments/checks/appendix_identities.py
 ```
 
-Direct library usage on standardized features $\mathbf{x} \in \mathbb{R}^{18}$:
+Direct library usage on standardized features $`\mathbf{x} \in \mathbb{R}^{18}`$:
 
 ```python
 import torch
@@ -33,27 +33,27 @@ diag = model.forward_with_diagnostics(x)
 
 ## Operator-swap and control hierarchy (Sections 2–3)
 
-| Family | Operator space / ansatz | Gauge orbit | Curvature $F_{jk}$ | Non-commutativity $\kappa_{\mathrm{nc}}$ | `MKT` / `M+N` params |
+| Family | Operator space / ansatz | Gauge orbit | Curvature $`F_{jk}`$ | Non-commutativity $`\kappa_{\mathrm{nc}}`$ | `MKT` / `M+N` params |
 |---|---|---|---|---|---|
-| `QCML Herm` ($d=8$) | $\mathrm{Herm}(\mathbb{C}^8)$, ground state $\rho_0(\mathbf{x})$ | $\mathrm{PU}(8)$ | $\neq 0$ | $> 0$ | `832` / `1,216` (`1,153` eff.) |
-| `QCML Real` ($d=11$) | $\mathrm{Sym}(\mathbb{R}^{11})$, ground state $\rho_0(\mathbf{x})$ | $\mathrm{PO}(11)$ | $\equiv 0$ | $> 0$ | `858` / `1,254` (`1,199` eff.) |
-| `QCML Diag` ($d=64, \beta^*$) | $\operatorname{diag}(\mathbb{R}^{64})$, Gibbs mixture $\rho_\beta(\mathbf{x})$ | $S_{64}$ | $\equiv 0$ | $\equiv 0$ | `832` / `1,216` (`1,216` eff.) |
-| `VQC` ($n=3$) | Cyclic ($L=3$) & affine ($L=9$), `CNOT` vs. `NoCNOT` | — | circuit | $Q_{\mathrm{MW}} \in [0.38, 0.53]$ vs. $0$ | `155–794` / `200–1,118` |
+| `QCML Herm` ($`d=8`$) | $`\mathrm{Herm}(\mathbb{C}^8)`$, ground state $`\rho_0(\mathbf{x})`$ | $`\mathrm{PU}(8)`$ | $`\neq 0`$ | $`\gt 0`$ | `832` / `1,216` (`1,153` eff.) |
+| `QCML Real` ($`d=11`$) | $`\mathrm{Sym}(\mathbb{R}^{11})`$, ground state $`\rho_0(\mathbf{x})`$ | $`\mathrm{PO}(11)`$ | $`\equiv 0`$ | $`\gt 0`$ | `858` / `1,254` (`1,199` eff.) |
+| `QCML Diag` ($`d=64, \beta^*`$) | $`\operatorname{diag}(\mathbb{R}^{64})`$, Gibbs mixture $`\rho_\beta(\mathbf{x})`$ | $`S_{64}`$ | $`\equiv 0`$ | $`\equiv 0`$ | `832` / `1,216` (`1,216` eff.) |
+| `VQC` ($`n=3`$) | Cyclic ($`L=3`$) & affine ($`L=9`$), `CNOT` vs. `NoCNOT` | — | circuit | $`Q_{\mathrm{MW}} \in [0.38, 0.53]`$ vs. $`0`$ | `155–794` / `200–1,118` |
 | Classical controls | `Mom21-LowVol`, `Ridge`, `RFF-KRR`, `HistGBDT`, `LightGBM`, `MLP-tanh`, `FiLM-MLP` | — | — | — | `0–1,025` / `0–1,221` |
 
 ## Repository map
 
 | Path | Contents |
 |---|---|
-| `qcml_moex/qcml.py` | `QCMLModel`, Tikhonov-damped Rayleigh–Schrödinger and Daleckii–Krein autograd solvers, $\mathrm{GUE}(d)$ null, spectral observables (Sec. 2, Appendix A) |
-| `qcml_moex/vqc.py` | Three-qubit statevector VQCs (cyclic and affine encodings, ring-`CNOT` toggle, Meyer–Wallach $Q_{\mathrm{MW}}$; Sec. 2.1, Sec. 3.2) |
-| `qcml_moex/baselines.py` | Linear factors, kernel/tree/neural baselines, iso-parameter `FiLM-MLP`, and $S^1 / S^2 / \mathrm{SU}(3)$ synthetic controls (Sec. 3.2, Supplementary S1) |
-| `qcml_moex/panel.py` | MOEX `TQBR` corporate-action adjustments, liquid Top-50 universe, causal $[t_{\mathrm{prev}}, t-1]$ news features, purged walk-forward splits (Sec. 3.1–3.2) |
-| `qcml_moex/econometrics.py` | Daily Spearman $\mathrm{RankIC}$, four-factor $\mathrm{RankIC}_{\mathrm{FM}}$, Newey–West HAC, stationary bootstrap, Hansen $\mathrm{MCS}_{0.05}$, $\mathrm{VAR}(5)$ Granger tests, causal portfolio simulator, Deflated Sharpe Ratio (Sec. 3.3, Sec. 4) |
+| `qcml_moex/qcml.py` | `QCMLModel`, Tikhonov-damped Rayleigh–Schrödinger and Daleckii–Krein autograd solvers, $`\mathrm{GUE}(d)`$ null, spectral observables (Sec. 2, Appendix A) |
+| `qcml_moex/vqc.py` | Three-qubit statevector VQCs (cyclic and affine encodings, ring-`CNOT` toggle, Meyer–Wallach $`Q_{\mathrm{MW}}`$; Sec. 2.1, Sec. 3.2) |
+| `qcml_moex/baselines.py` | Linear factors, kernel/tree/neural baselines, iso-parameter `FiLM-MLP`, and $`S^1 / S^2 / \mathrm{SU}(3)`$ synthetic controls (Sec. 3.2, Supplementary S1) |
+| `qcml_moex/panel.py` | MOEX `TQBR` corporate-action adjustments, liquid Top-50 universe, causal $`[t_{\mathrm{prev}}, t-1]`$ news features, purged walk-forward splits (Sec. 3.1–3.2) |
+| `qcml_moex/econometrics.py` | Daily Spearman $`\mathrm{RankIC}`$, four-factor $`\mathrm{RankIC}_{\mathrm{FM}}`$, Newey–West HAC, stationary bootstrap, Hansen $`\mathrm{MCS}_{0.05}`$, $`\mathrm{VAR}(5)`$ Granger tests, causal portfolio simulator, Deflated Sharpe Ratio (Sec. 3.3, Sec. 4) |
 | `data/universe.json`, `data/news_aggregates.npz` | Active calendar (`1,251` sessions, `253` tickers, split factors) and fold-causal derived inter-session numerical news features (zero raw news text) |
 | `data/runs/` | Outputs of the six benchmark suites reported in the paper; hardware details in `data/runs/MACHINE.md` |
 | `experiments/fetch_moex.py`, `experiments/run_benchmark.py` | Public MOEX ISS API downloader (`data/raw/moex_equities.parquet`) and full benchmark suite runner writing `data/runs/` |
-| `experiments/checks/` | Numerical verification of the Appendix A perturbation, resolvent, gauge-orbit, and $\mathrm{GUE}(d)$ identities |
+| `experiments/checks/` | Numerical verification of the Appendix A perturbation, resolvent, gauge-orbit, and $`\mathrm{GUE}(d)`$ identities |
 | `experiments/tables/`, `experiments/figures/` | Read-only scripts reproducing Tables 1–4, Tables S1–S2, Figs. 1–6 (`panels/`), and Fig. S1 (`supp_panels/`) from `data/runs/` |
 
 ## Reproducing the paper
