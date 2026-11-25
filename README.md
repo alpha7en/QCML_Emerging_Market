@@ -1,5 +1,7 @@
 # QCML_Emerging_Market
 
+[![DOI](https://zenodo.org/badge/1471430141.svg)](https://doi.org/10.5281/zenodo.24525011)
+
 Replication package and Python library (`qcml_moex`) for *"Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market"* (P. Chuklanov, 2026).
 
 The repository implements matrix-form Quantum Cognition Machine Learning (QCML), iso-parameter real-symmetric ($`\mathrm{Sym}(\mathbb{R}^{11})`$) and commuting Gibbs ($`\mathrm{diag}(\mathbb{R}^{64})`$) operator swaps, three-qubit data-reuploading variational quantum circuits (VQCs) with an explicit `CNOT` entanglement toggle, classical asset-pricing controls, and norm-controlled $`\mathrm{GUE}(8)`$ spectral-stress diagnostics on Moscow Exchange (MOEX) equities with causally lagged economic news (`2020–2025`, `37,048` out-of-sample stock-days across `759` sessions).
@@ -90,7 +92,7 @@ Please cite the accompanying paper:
 
 > P. Chuklanov, "Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market," 2026.
 
-Machine-readable citation metadata is provided in `CITATION.cff` and `.zenodo.json`.
+For the software and derived data package itself, cite `QCML_Emerging_Market` 1.0.0 (2026), [doi:10.5281/zenodo.24525012](https://doi.org/10.5281/zenodo.24525012) (version 1.0.0) or [doi:10.5281/zenodo.24525011](https://doi.org/10.5281/zenodo.24525011) (all versions). Machine-readable citation metadata is provided in `CITATION.cff` and `.zenodo.json`.
 
 ## License
 

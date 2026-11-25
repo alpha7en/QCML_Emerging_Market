@@ -2,7 +2,15 @@ cff-version: 1.2.0
 message: "If you use this software or the derived data files, please cite it as below."
 title: "QCML_Emerging_Market: empirical de-quantization and norm-controlled spectral audit of Quantum Cognition Machine Learning in an emerging equity market"
 version: 1.0.0
+doi: 10.5281/zenodo.24525011
 repository-code: "https://github.com/alpha7en/QCML_Emerging_Market"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24525011
+    description: "All versions"
+  - type: doi
+    value: 10.5281/zenodo.24525012
+    description: "Version 1.0.0"
 date-released: 2026-11-25
 license: BSD-3-Clause
 authors:
