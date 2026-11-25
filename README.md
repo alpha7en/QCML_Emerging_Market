@@ -2,7 +2,7 @@
 
 Replication package and Python library (`qcml_moex`) for *"Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market"* (P. Chuklanov, 2026).
 
-The repository implements matrix-form Quantum Cognition Machine Learning (QCML), iso-parameter real-symmetric ($`\mathrm{Sym}(\mathbb{R}^{11})`$) and commuting Gibbs ($`\operatorname{diag}(\mathbb{R}^{64})`$) operator swaps, three-qubit data-reuploading variational quantum circuits (VQCs) with an explicit `CNOT` entanglement toggle, classical asset-pricing controls, and norm-controlled $`\mathrm{GUE}(8)`$ spectral-stress diagnostics on Moscow Exchange (MOEX) equities with causally lagged economic news (`2020–2025`, `37,048` out-of-sample stock-days across `759` sessions).
+The repository implements matrix-form Quantum Cognition Machine Learning (QCML), iso-parameter real-symmetric ($`\mathrm{Sym}(\mathbb{R}^{11})`$) and commuting Gibbs ($`\mathrm{diag}(\mathbb{R}^{64})`$) operator swaps, three-qubit data-reuploading variational quantum circuits (VQCs) with an explicit `CNOT` entanglement toggle, classical asset-pricing controls, and norm-controlled $`\mathrm{GUE}(8)`$ spectral-stress diagnostics on Moscow Exchange (MOEX) equities with causally lagged economic news (`2020–2025`, `37,048` out-of-sample stock-days across `759` sessions).
 
 ## Quick start
 
@@ -37,7 +37,7 @@ diag = model.forward_with_diagnostics(x)
 |---|---|---|---|---|---|
 | `QCML Herm` ($`d=8`$) | $`\mathrm{Herm}(\mathbb{C}^8)`$, ground state $`\rho_0(\mathbf{x})`$ | $`\mathrm{PU}(8)`$ | $`\neq 0`$ | $`\gt 0`$ | `832` / `1,216` (`1,153` eff.) |
 | `QCML Real` ($`d=11`$) | $`\mathrm{Sym}(\mathbb{R}^{11})`$, ground state $`\rho_0(\mathbf{x})`$ | $`\mathrm{PO}(11)`$ | $`\equiv 0`$ | $`\gt 0`$ | `858` / `1,254` (`1,199` eff.) |
-| `QCML Diag` ($`d=64, \beta^*`$) | $`\operatorname{diag}(\mathbb{R}^{64})`$, Gibbs mixture $`\rho_\beta(\mathbf{x})`$ | $`S_{64}`$ | $`\equiv 0`$ | $`\equiv 0`$ | `832` / `1,216` (`1,216` eff.) |
+| `QCML Diag` ($`d=64, \beta^*`$) | $`\mathrm{diag}(\mathbb{R}^{64})`$, Gibbs mixture $`\rho_\beta(\mathbf{x})`$ | $`S_{64}`$ | $`\equiv 0`$ | $`\equiv 0`$ | `832` / `1,216` (`1,216` eff.) |
 | `VQC` ($`n=3`$) | Cyclic ($`L=3`$) & affine ($`L=9`$), `CNOT` vs. `NoCNOT` | — | circuit | $`Q_{\mathrm{MW}} \in [0.38, 0.53]`$ vs. $`0`$ | `155–794` / `200–1,118` |
 | Classical controls | `Mom21-LowVol`, `Ridge`, `RFF-KRR`, `HistGBDT`, `LightGBM`, `MLP-tanh`, `FiLM-MLP` | — | — | — | `0–1,025` / `0–1,221` |
 
